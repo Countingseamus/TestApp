@@ -13,7 +13,7 @@ For every line of data in the CSV, we want to:
 
 # Running the application
 
--The program must be invoked from command line as follows:
+The program must be invoked from command line as follows:
 
 wpe_merge <input_file> <output_file>
 
@@ -102,7 +102,7 @@ The AccountController class was then in charge of getting the accounts from the 
 
 5. Utilities - AccountMerger.cs, Constants.cs, ErrorHandler.cs, FileOperations.cs, InputValidation.cs, HttpClientWrapper.cs
 
-6. Unit Tests
+6. Unit Tests - 
 Unit tested all the Controllers and Utilities that contained the logic.
 Did not unit test Models as there is no logic to test or the Program as it required user input and private methods.
 Used XUnit and NSubstitute.
