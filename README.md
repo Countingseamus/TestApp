@@ -111,7 +111,8 @@ Used XUnit and NSubstitute.
 Virtual methods used deemed better for unit testability than interfaces but it is a code smell. With proper Dependency Injection I would always prefer to use interfaces as it leads to greater abstraction and therefore maintainability and extensibility.
 
 # Improvements that could be made:
-HTTPClient could be implemented better for abstraction, separating concerns better with easier unit testability.
-Dependency Injection & abstraction to avoid newing up so many objects and provide greater flexibility in future and testability.
-I could also have tested the File I/O more both manually and with unit tests but I just don't have the time, apologies.
-Document further what was done in ReadMe and why (again apologies, I just have no time)
+-HTTPClient could be implemented better for abstraction, separating concerns better with easier unit testability.
+-Dependency Injection & abstraction to avoid newing up so many objects and provide greater flexibility in future and testability.
+-I could also have tested the File I/O more both manually and with unit tests but I just don't have the time, apologies.
+-Document further what was done in ReadMe and why (again apologies, I just have no time)
+-Remove HttpClientWrapper.cs instance from AccountMerger.cs and inject through AccountController.cs constructor. AccountMerger should not need to know about this.
