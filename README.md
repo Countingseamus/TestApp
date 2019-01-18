@@ -23,7 +23,7 @@ wpe_merge data/input.csv output.csv
 
 A happy path batch file was created also (wpe_merge_happy_path_hardcoded_files.bat) which contains hardcoded names for two files, input.csv & output.csv. Executing this batch file (double click) directly should lead to a successful run. Success Message out put to user, review contents to see contents are correct in output file.
 
-Please note that the batch file (wpe_merge) targets the generated dll in the debug folder currently -> dotnet bin\Debug\netcoreapp2.1\WPEAccountApp.dll. This can be changed to Release or wherever deemed appropriate.
+Please note that the batch file (wpe_merge) targets the generated dll in the debug folder currently -> dotnet bin\Debug\netcoreapp2.1\WPEAccountApp.dll. This can be changed to Release or wherever deemed appropriate. That means if you want to run the application you must first build and compile it.
 
 # WPEAccountApp Description
 
